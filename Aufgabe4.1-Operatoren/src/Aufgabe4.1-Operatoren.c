@@ -1,17 +1,9 @@
-/*
- ============================================================================
- Name        : 1-Operatoren.c
- Author      : Bartels
- Version     :
- Copyright   : bartels
- Description : Hello World in C, Ansi-style
- ============================================================================
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 
 int main(void) {
+	setbuf(stdout, 0);
+
 	int x = 2;
 
 	int result = x < 5 && 10 > 7;

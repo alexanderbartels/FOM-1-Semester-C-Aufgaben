@@ -1,13 +1,3 @@
-/*
- ============================================================================
- Name        : Aufgabe6.c
- Author      : Bartels
- Version     :
- Copyright   : bartels
- Description : Hello World in C, Ansi-style
- ============================================================================
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,13 +1,3 @@
-/*
- ============================================================================
- Name        : Aufgabe4.c
- Author      : Bartels
- Version     :
- Copyright   : bartels
- Description : Hello World in C, Ansi-style
- ============================================================================
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -29,9 +19,6 @@ int main(void) {
 	return EXIT_SUCCESS;
 	*/
 
-	// -32
-	// * 5 / 9
-
 	setbuf(stdout, 0);
 
 	float fahrenheit, celsius;
@@ -48,10 +35,9 @@ int main(void) {
 	for(i = -4000000; i < 4000000; i++) {
 		fahrenheit = i;
 		celsius = (fahrenheit - 32) * 5.0 / 9.0;
-			//printf("Fahrenheit und Celsius sind gleich?: %f == %f \n", fahrenheit, celsius);
 
 		if (fahrenheit == celsius) {
-			printf("yiiihaaaaaaaa: Grad: %f \n", fahrenheit);
+			printf("yiiihaaaaaaaa: Celcius == Fahrenheit: %f \n", fahrenheit);
 		}
 	}
 	return 0;
