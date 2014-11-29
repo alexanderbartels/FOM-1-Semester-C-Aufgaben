@@ -36,10 +36,7 @@ int main(void) {
 			break;
 		}
 
-		istSchaltjahr = durch4(datum);
-		if (istSchaltjahr) {
-			istSchaltjahr = ausnahme1(datum) == 0 ? ausnahme2(datum) : 1;
-		}
+		istSchaltjahr = durch4(datum) && !ausnahme1(datum) && ausnahme2(datum);
 
 		printf("%d ist %s Schaltjahr!\n\n", datum, istSchaltjahr == 1 ? "ein" : "kein");
 	} while(1);
