@@ -38,7 +38,7 @@ int main(void) {
 	// Ausgabe
 	printf("String 1:     %s \n", str1);
 	printf("String 2:     %s \n", str2);
-	printf("Unterschiede: %s \n", str3);
+	printf("unterschiede: %s \n", str3);
 
 	return EXIT_SUCCESS;
 }
