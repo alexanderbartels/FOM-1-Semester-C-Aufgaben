@@ -18,31 +18,21 @@ int main(void) {
 
 	// strings initialisieren
 	char str1[256] = "C als erste Programmiersprache....";
-	char str2[256] = "c als erste programmiersprache.";
+	char str2[256] = "c als erste programmiersprache.ghjggjgjhghj";
 	char str3[256] = {'\0'};
 
 	// String zeichen fuer zeichen vergleichen
 	for (zaehler = 0; zaehler < sizeof(str1); zaehler++) {
-		if (str1[zaehler] == '\0' || str2[zaehler] == '\0') {
+		if (str1[zaehler] == '\0' && str2[zaehler] == '\0') {
 			break;
-		}
-
-		if (str1[zaehler] == str2[zaehler]) {
+		} else if ((str1[zaehler] == '\0' && str2[zaehler] != '\0') ||
+				(str1[zaehler] != '\0' && str2[zaehler] == '\0')) {
+			str3[zaehler] = 'X';
+		} else if (str1[zaehler] == str2[zaehler]) {
 			str3[zaehler] = ' ';
 		} else {
 			str3[zaehler] = '^';
 		}
-	}
-
-	// Unterschiede in der Laenge feststellen
-	int dif = strlen(str1) - strlen(str2);
-	if (dif < 0) {
-		dif *= -1;
-	}
-
-	// Unterschiede in der Laenge mit X markieren
-	for ( int i = zaehler; i < (zaehler + dif); i++) {
-		str3[i] = 'X';
 	}
 
 	// Ausgabe
