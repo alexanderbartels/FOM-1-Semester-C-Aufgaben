@@ -31,7 +31,7 @@ unsigned long long fak2(unsigned long long n) {
 int main(void) {
 	setbuf(stdout, 0);
 
-	printf("Fak1: %50ld\n", fak1(17));
+	printf("Fak1: %50ld\n", fak1(16));
 	printf("Fak2: %50ld\n", fak2(25));
 	return EXIT_SUCCESS;
 }
