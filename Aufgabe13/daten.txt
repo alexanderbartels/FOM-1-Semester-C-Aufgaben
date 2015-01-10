@@ -1,0 +1,5 @@
+Warum sind die Tasten der Tastatur so angeordnet und wer ist dafür verantwortlich?
+
+Christopher Latham Sholes von Sholes & Glidden entwarf 1874 die QWERTY-Tastatur, mit deren Tastenanordnung wir auch heute noch schreiben. In Deutschland wurde das Y mit dem Z vertauscht, weil bei uns das Y so selten in der Sprache vorkommt, so dass man bei uns vom QWERTZ-System spricht.
+
+Die diagonale Versetzung der Tasten ist durch die Mechanik begründet, doch die Buchstaben- Tasten-Zuordnung war erst einmal willkürlich.

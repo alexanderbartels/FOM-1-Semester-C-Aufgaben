@@ -12,27 +12,27 @@
 #include <stdlib.h>
 
 int max(int zahlen[], int count) {
-	int max = zahlen[0];
+	int maxi = zahlen[0];
 
 	for (int i = 1; i < count; i++) {
-		if (zahlen[i] > max) {
-			max = zahlen[i];
+		if (zahlen[i] > maxi) {
+			maxi = zahlen[i];
 		}
 	}
 
-	return max;
+	return maxi;
 }
 
 int min(int zahlen[], int count) {
-	int min = zahlen[0];
+	int mini = zahlen[0];
 
 	for (int i = 1; i < count; i++) {
-		if (zahlen[i] < min) {
-			min = zahlen[i];
+		if (zahlen[i] < mini) {
+			mini = zahlen[i];
 		}
 	}
 
-	return min;
+	return mini;
 }
 
 int main(void) {
