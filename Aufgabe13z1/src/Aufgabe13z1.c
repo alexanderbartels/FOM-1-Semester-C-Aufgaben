@@ -28,6 +28,7 @@ int main(void) {
 
 		charCount++;
 
+
 		if (charCount >= MAX_CHARS) {
 			printf("\n");
 			charCount = 0;
